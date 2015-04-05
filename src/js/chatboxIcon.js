@@ -13,7 +13,6 @@ var ChatIconPopoverView = Marionette.LayoutView.extend({
       'click .plus-btn': 'onNudgeClick'
    },
    onNudgeClick: function(){
-      vent.trigger('')
       console.log("on nudge");
    }
 });
